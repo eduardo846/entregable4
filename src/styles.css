@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.App{
+   justify-content: center;
+   margin: 2rem;
+}
+.buttonAdd{
+    text-align: end;
+}
+.iconPlus{
+    margin-right: 4px ;
+}
+.lastText,.firstText, .emailText, .passText, .birthText{
+    text-align: left;
+}
+.buttonText{
+    width: 100%;
+}
+.conten-list{
+    list-style: none;
+}
+.textname{
+    font-size: 30px;
+}
+.textUemail{
+    color: grey;
+}
+ul{
+    padding-left: 0;
+}
+.user-container{
+    width: 25rem;
+    height: 15rem;
+
+    padding: 1rem;
+    margin:1rem ;
+    border: 1px solid rgb(220, 214, 214);
+    border-radius: 1%;
+}
+.users-container{
+    display: flex;
+}
+hr{
+    margin: 4px;
+}
+.button-container{
+    text-align: right;
+}
+.button-container button{
+    margin: 10px;
+    background-color: rgb(220, 214, 214);
+}
